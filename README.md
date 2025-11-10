@@ -64,3 +64,9 @@ You'll need Python and the following libraries:
 
 ```bash
 pip install torch torchvision numpy opencv-python pillow
+@inproceedings{guo2020zero,
+  title={Learning to Enhance Low-Light Images via Deep Curve Estimation},
+  author={Guo, Chunle and Li, Chongyi and Guo, Jichang and Loy, Chen Change and Liu, Junmin and Eslami, S. M. Ali},
+  booktitle={European Conference on Computer Vision (ECCV)},
+  year={2020}
+}
