@@ -12,13 +12,7 @@ The goal is to brighten and improve the contrast and color of dark images withou
 
 Here are some representative examples of what Zero-DCE can do.
 
-| Before (Low-Light) | After (Enhanced) |
-| :---: | :---: |
-|  |  |
-|  |  |
-|  |  |
-
----
+assets/download.png
 
 ## 🏗️ How Zero-DCE Works: Architecture Overview
 
@@ -72,4 +66,5 @@ pip install torch torchvision numpy opencv-python pillow
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2020}
 }
+
 
