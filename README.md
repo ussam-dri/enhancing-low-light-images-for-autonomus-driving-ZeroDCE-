@@ -12,8 +12,7 @@ The goal is to brighten and improve the contrast and color of dark images withou
 
 Here are some representative examples of what Zero-DCE can do.
 
-(assets/download.png)
-
+![Before and After Examples](assets/before-after.jpg)
 ## 🏗️ How Zero-DCE Works: Architecture Overview
 
 The core idea of Zero-DCE is to re-frame low-light enhancement as a task of **deep curve estimation**. Instead of directly manipulating image pixels, the model learns a set of pixel-wise, higher-order curves. These curves are then applied to the input image to adjust its dynamic range.
@@ -66,6 +65,7 @@ pip install torch torchvision numpy opencv-python pillow
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2020}
 }
+
 
 
 
