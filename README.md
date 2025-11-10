@@ -4,7 +4,7 @@ This repository contains a PyTorch implementation of the **Zero-Reference Deep C
 
 The goal is to brighten and improve the contrast and color of dark images without introducing noise or artifacts. The key feature of this model is that it's "zero-reference," meaning it was trained **without** needing paired low-light and bright-light images.
 
-[cite_start]The file `zerodce_best_BOLDER.pth` [cite: 1-161] included in this repo is a pre-trained model checkpoint.
+The file `zerodce_best_BOLDER.pth`.included in this repo is a pre-trained model checkpoint.
 
 ---
 
@@ -59,6 +59,7 @@ You'll need Python and the following libraries:
 pip install torch torchvision numpy opencv-python pillow
 
 ```
+
 
 
 
