@@ -8,12 +8,12 @@ The file `zerodce_best_BOLDER.pth`.included in this repo is a pre-trained model 
 
 ---
 
-## 📸 Gallery: Before & After
+##  Gallery: Before & After
 
 Here are some representative examples of what Zero-DCE can do.
 
 ![Before and After Examples](assets/download.png)
-## 🏗️ How Zero-DCE Works: Architecture Overview
+##  How Zero-DCE Works: Architecture Overview
 
 The core idea of Zero-DCE is to re-frame low-light enhancement as a task of **deep curve estimation**. Instead of directly manipulating image pixels, the model learns a set of pixel-wise, higher-order curves. These curves are then applied to the input image to adjust its dynamic range.
 
@@ -49,7 +49,7 @@ Since there is no "ground truth" bright image to compare against, the model is t
 
 ---
 
-## 🚀 How to Use This Repo
+##  How to Use This Repo
 
 ### 1. Requirements
 
@@ -59,6 +59,7 @@ You'll need Python and the following libraries:
 pip install torch torchvision numpy opencv-python pillow
 
 ```
+
 
 
 
