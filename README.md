@@ -1,4 +1,4 @@
-# Zero-DCE Low-Light Image Enhancement (BOLDER Model)
+# Zero-DCE Low-Light Image Enhancement 
 
 This repository contains a PyTorch implementation of the **Zero-Reference Deep Curve Estimation (Zero-DCE)** model for enhancing low-light images.
 
@@ -59,6 +59,7 @@ You'll need Python and the following libraries:
 pip install torch torchvision numpy opencv-python pillow
 
 ```
+
 
 
 
